@@ -13,6 +13,13 @@ fn main(){
         arr_size -= 1;
     }  
     some_function();
+
+    let key : bool = true;
+
+    if key {
+        println!("Yes");
+    }
+
 }
 
 fn some_function(){
